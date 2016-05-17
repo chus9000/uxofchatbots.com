@@ -207,3 +207,12 @@ article {
   transition: transform .1s ease-in; }
   article:hover {
     transform: scale(1.05); }
+
+footer {
+  padding: 4rem;
+  text-align: center; }
+  footer p {
+    font-family: FuturaBoldRegular;
+    font-size: 1.5rem; }
+    footer p a {
+      color: #198226; }
