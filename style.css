@@ -207,6 +207,10 @@ article {
   transition: transform .1s ease-in; }
   article:hover {
     transform: scale(1.05); }
+  article em {
+    color: rgba(5, 5, 5, 0.8);
+    font-style: italic;
+    font-size: 1rem; }
 
 footer {
   padding: 4rem;
