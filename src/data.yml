@@ -16,15 +16,15 @@ twitter:
   message: "Check out this awesome list of %23UX of %23VR resources %23Chatbot %23UserExperience"
   button_text: "Share on Twitter"
 sections:
-  - s: Video
-    p: Videos
-    _: video
   - s: Article
     p: Articles
     _: article
   - s: Slides
     p: Slides
     _: slides
+  - s: Video
+    p: Videos
+    _: video
   - s: Book
     p: Books
     _: book
@@ -49,9 +49,9 @@ resources:
     url: "http://alistapart.com/article/designing-the-conversational-ui"
     author: "Matty Mariansky"
     type: article
-  - title: "UX in VR: Designing For Virtual Reality"
-    url: "http://www.slideshare.net/LauraCortes9/talk-ux-uxinvrunit9"
-    author: "Laura Cortes & Cyriele Piancastelli"
+  - title: "The Chatbots Are Coming: A Guide to Chatbots, AI and Conversational Interfaces"
+    url: "https://www.slideshare.net/TheWorkingGroup/the-robots-are-coming-a-guide-to-chatbots-ai-and-conversational-interfaces"
+    author: "TWG"
     type: slides
   - title: "3D User Interfaces: Theory and Practice"
     url: "http://www.amazon.co.uk/gp/product/0201758679"
@@ -65,11 +65,7 @@ resources:
     url: "https://www.youtube.com/watch?v=xudpmyVUy6w"
     author: "Sebastian Krumhausen (WeAreDevelopers)"
     type: video
-  - title: "The Frontiers of Virtual & Augmented Reality User Experience"
-    url: "https://docs.google.com/presentation/d/1TMbvwudDoWX-uy951HppecInbbyJwzAIGMu5w_l4Fj4/edit"
-    author: "Edward Moore (AMPED-UX)"
+  - title: "Chatbot workshop - How to build one."
+    url: "https://www.slideshare.net/Warply/chatbot-workshop-how-to-build-onedigitized16"
+    author: "Warply"
     type: slides
-  - title: "Design a pleasant user experience inside the VR"
-    url: "https://blog.prototypr.io/design-a-pleasant-user-experience-inside-the-vr-a76320c69fdf"
-    author: "Sophie Riwaters"
-    type: article

@@ -64,3 +64,5 @@ gulp.task('deploy', ['build'], function () {
   return gulp.src(paths.allDist)
     .pipe(deploy());
 });
+
+gulp.task( 'default', [ 'deploy' ] )

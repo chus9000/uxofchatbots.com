@@ -1,240 +1,237 @@
 @import "app-reset";
 @import "fonts/futura";
-$green: #198226;
+$green: #2e0ed6;
 $white: darken(#fff, 2%);
 $black: lighten(#000, 2%);
 html {
-  overflow-x: hidden;
-  font-size: 16px;
-  font-family: helvetica neue, helvetica, arial, sans-serif;
-  line-height: 1.2;
-  background-color: $white;
+    overflow-x: hidden;
+    font-size: 16px;
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+    line-height: 1.2;
+    background-color: $white;
 }
 
 h1,
 h2,
 h3 {
-  font-family: FuturaBoldRegular, helvetica neue, helvetica, arial, sans-serif;
+    font-family: FuturaBoldRegular, helvetica neue, helvetica, arial, sans-serif;
 }
 
 h1,
 h2,
 p {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 h1 {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 h2 {
-  font-size: 3rem;
-  color: $green;
-  text-transform: uppercase;
-  letter-spacing: .0125em;
+    font-size: 3rem;
+    color: $green;
+    text-transform: uppercase;
+    letter-spacing: .0125em;
 }
 
 h3 {
-  margin-bottom: .5rem;
+    margin-bottom: .5rem;
 }
 
 h4 {
-  font-size: .8rem;
+    font-size: .8rem;
 }
 
 main {
-  margin: 0 auto;
-  width: 600px;
-  max-width: 100%;
+    margin: 0 auto;
+    width: 600px;
+    max-width: 100%;
 }
 
 header {
-  background-color: $green;
-  background-image: linear-gradient(to bottom, #0f831f, #0d761c);
-  color: $white;
-  transform: skew(0, -4.5deg);
-  margin: -4rem 0 4rem;
-  width: 100%;
-  .inner {
-    transform: skew(0, 4.5deg);
-    min-height: 20rem;
-    padding: 7rem 0 4rem;
-    text-align: center;
-    width: 600px;
-    max-width: 100%;
-    margin: auto;
-  }
-  .logo {
-    width: 12rem;
-    height: auto;
-    margin: 0 auto 2rem;
-  }
-  p {
-    font-size: 1.4rem;
-    margin: 0 1rem;
-  }
+    background-color: $green;
+    background-image: linear-gradient(to bottom, #0f831f, #0d761c);
+    color: $white;
+    transform: skew(0, -4.5deg);
+    margin: -4rem 0 4rem;
+    width: 100%;
+    .inner {
+        transform: skew(0, 4.5deg);
+        min-height: 20rem;
+        padding: 7rem 0 4rem;
+        text-align: center;
+        width: 600px;
+        max-width: 100%;
+        margin: auto;
+    }
+    .logo {
+        width: 12rem;
+        height: auto;
+        margin: 0 auto 2rem;
+    }
+    p {
+        font-size: 1.4rem;
+        margin: 0 1rem;
+    }
 }
 
 section {
-  padding: 2rem 1rem;
+    padding: 2rem 1rem;
 }
 
 .to-top {
-  position: fixed;
-  right: 1rem;
-  bottom: 1rem;
-  width: 2rem;
-  height: 2rem;
-  display: block;
-  background-image: url(up_arrow.svg);
-  background-position: 50%;
-  background-repeat: no-repeat;
-  opacity: .5;
-  transition: opacity .2s ease;
-  &:hover {
-    opacity: 1;
-  }
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    background-image: url(up_arrow.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    opacity: .5;
+    transition: opacity .2s ease;
+    &:hover {
+        opacity: 1;
+    }
 }
 
 .intro p {
-  a {
-    text-decoration: underline;
-    font-style: italic;
-    color: $green;
-  }
+    a {
+        text-decoration: underline;
+        font-style: italic;
+        color: $green;
+    }
 }
 
 .btn {
-  background: $green;
-  color: $white;
-  padding: .5em 0;
-  font-size: 1rem;
-  text-align: center;
-  margin: .25em;
+    background: $green;
+    color: $white;
+    padding: .5em 0;
+    font-size: 1rem;
+    text-align: center;
+    margin: .25em;
 }
 
 .buttons {
-  display: flex;
-  flex-wrap: wrap;
-  .btn {
-    flex: 1;
-    flex-basis: 33%;
-  }
+    display: flex;
+    flex-wrap: wrap;
+    .btn {
+        flex: 1;
+        flex-basis: 33%;
+    }
 }
 
 h2 {
-  text-align: center;
-  overflow: hidden;
-  position: relative;
-  &::before,
-  &::after {
-    content: '';
-    height: 1rem;
-    width: 50%;
-    background: $green;
-    position: absolute;
-    top: 50%;
-    margin-top: -.5rem;
-  }
-  &::before {
-    left: -25%;
-  }
-  &::after {
-    right: -25%;
-  }
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    &::before,
+    &::after {
+        content: '';
+        height: 1rem;
+        width: 50%;
+        background: $green;
+        position: absolute;
+        top: 50%;
+        margin-top: -.5rem;
+    }
+    &::before {
+        left: -25%;
+    }
+    &::after {
+        right: -25%;
+    }
 }
 
 .resource {
-  padding: 1rem;
-  box-shadow: 0 1px 2px rgba($black, .3);
-  color: $black;
-  transition: all .2s ease;
-  position: relative;
-  margin: 0 0 1rem;
-  background: #fff;
-  overflow: hidden;
-
-  .read-control {
-    position: absolute;
-    left: -10rem;
-    top: 0;
-
-    &:checked ~ h3,
-    &:checked ~ h4 {
-      opacity: .5;
-    }
-    + .label {
-      opacity: 1!important;
-    }
-    &:checked + .label {
-      background-image: url(checkbox-checked.svg);
-    }
-
-  }
-  .label {
-    width: 2rem;
-    height: 2rem;
-    background-image: url(checkbox-empty.svg);
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    overflow: hidden;
-    text-indent: -999em;
-    position: absolute;
-    left: 1rem;
-    top: 1rem;
-  }
-  h3,
-  h4 {
-    margin-left: 4rem;
-  }
-  h3 {
-    color: $green;
-    em {
-      color: #aaa;
-      font-size: .8em;
-      display: block;
-      font-weight: normal;
-      font-style: italic;
-      margin-top: .5rem;
-      cursor: default;
-      font-family: helvetica neue, helvetica, arial, sans-serif;
-    }
-  }
-  .video-container {
-    background-image: url(loading.svg);
-    background-position: 50%;
-    background-repeat: no-repeat;
-    height: 0;
+    padding: 1rem;
+    box-shadow: 0 1px 2px rgba($black, .3);
+    color: $black;
+    transition: all .2s ease;
     position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    margin-top: 1rem;
-    iframe {
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      border: 0;
-      width: 100%;
-      height: 100%;
-      background-color: transparent;
+    margin: 0 0 1rem;
+    background: #fff;
+    overflow: hidden;
+    .read-control {
+        position: absolute;
+        left: -10rem;
+        top: 0;
+        &:checked ~ h3,
+        &:checked ~ h4 {
+            opacity: .5;
+        }
+        + .label {
+            opacity: 1!important;
+        }
+        &:checked + .label {
+            background-image: url(checkbox-checked.svg);
+        }
     }
-  }
-  &:hover {
-    box-shadow: 0 2px 4px rgba($black, .4);
-  }
+    .label {
+        width: 2rem;
+        height: 2rem;
+        background-image: url(checkbox-empty.svg);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        overflow: hidden;
+        text-indent: -999em;
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+    }
+    h3,
+    h4 {
+        margin-left: 4rem;
+    }
+    h3 {
+        color: $green;
+        em {
+            color: #aaa;
+            font-size: .8em;
+            display: block;
+            font-weight: normal;
+            font-style: italic;
+            margin-top: .5rem;
+            cursor: default;
+            font-family: helvetica neue, helvetica, arial, sans-serif;
+        }
+    }
+    .video-container {
+        background-image: url(loading.svg);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        height: 0;
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        margin-top: 1rem;
+        iframe {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            border: 0;
+            width: 100%;
+            height: 100%;
+            background-color: transparent;
+        }
+    }
+    &:hover {
+        box-shadow: 0 2px 4px rgba($black, .4);
+    }
 }
 
 @media screen and (max-width: 500px) {
-  .to-top {
-    display: none;
-  }
-  h2 {
-    &::before,
-    &::after {
-      display: none;
+    .to-top {
+        display: none;
     }
-  }
+    h2 {
+        &::before,
+        &::after {
+            display: none;
+        }
+    }
 }
