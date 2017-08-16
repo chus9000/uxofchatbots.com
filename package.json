@@ -1,5 +1,5 @@
 {
-  "name": "uxofvr.com",
+  "name": "uxofchatbots.com",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/omgmog/uxofvr.com.git"
+    "url": "https://github.com/chus9000/uxofchatbots.com.git"
   },
-  "author": "Max Glenister <moglenstar@gmail.com>",
+  "author": "Max Glenister <j3susm@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/omgmog/uxofvr.com/issues"
+    "url": "https://github.com/chus9000/uxofchatbots.com/issues"
   },
   "dependencies": {
     "fs": "0.0.2",
