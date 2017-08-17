@@ -2,9 +2,9 @@
 title_short: The UX of Chatbots
 title_full: The User Experience of Chatbots
 subtitle: A curated list of resources to help you on your journey into the User Experience of Chatbots
-baseurl: "https://www.uxofvr.com"
+baseurl: "https://chus9000.github.io/uxofchatbots.com/"
 intro:
-  - Many thanks to all of the authors of the talks, articles, and guides referenced in the list. Without these people doing the hard thinking, Virtual Reality wouldn't be where it is today.
+  - Thanks to the authors and companies that created the awesome content in this list. Their work is bringing to life the old dream of ruling the world just by speaking.
 github_suggest:
   url: "https://github.com/chus9000/uxofchatbots.com/issues/new"
   text: "Suggest Something"
@@ -13,7 +13,7 @@ github_view:
   text: "View on Github"
 twitter:
   url_base: "https://twitter.com/intent/tweet?text="
-  message: "Check out this awesome list of %23UX of %23VR resources %23Chatbot %23UserExperience"
+  message: "Check out this awesome list of %23UX of %23Chatbot resources %23UserExperience"
   button_text: "Share on Twitter"
 sections:
   - s: Article
@@ -25,12 +25,18 @@ sections:
   - s: Video
     p: Videos
     _: video
+  - s: Audio
+    p: Audios
+    _: audio
   - s: Book
     p: Books
     _: book
-  - s: Other
-    p: Other
-    _: other
+  - s: Tool
+    p: Tools
+    _: tools
+  - s: Link
+    p: Links
+    _: link   
 
 resources:
   - title: "There are a dozen ways to order a coffee. Why do dumb bots only allow one?"
@@ -53,14 +59,14 @@ resources:
     url: "https://www.slideshare.net/TheWorkingGroup/the-robots-are-coming-a-guide-to-chatbots-ai-and-conversational-interfaces"
     author: "TWG"
     type: slides
-  - title: "3D User Interfaces: Theory and Practice"
-    url: "http://www.amazon.co.uk/gp/product/0201758679"
-    author: "Doug A. Bowman, Ernst Kruijff, Ivan Poupyrev Joseph J. LaViola"
+  - title: "Designing Voice User Interfaces. Principles of Conversational Experiences"
+    url: "http://shop.oreilly.com/product/0636920050056.do"
+    author: "Cathy Pearl"
     type: book
-  - title: "VR Design Lab - Unity project"
-    url: "https://github.com/VRUX-CO/VRDesignLab"
-    author: "Open source VR design examples by VRUX.co"
-    type: other
+  - title: "Designing Bots"
+    url: "http://shop.oreilly.com/product/0636920057741.do"
+    author: "Amir Shevat"
+    type: book
   - title: "How to Design Human Centered Chatbots? - Sebastian Krumhausen @ WeAreDevelopers Conference 2017"
     url: "https://www.youtube.com/watch?v=xudpmyVUy6w"
     author: "Sebastian Krumhausen (WeAreDevelopers)"
@@ -69,3 +75,35 @@ resources:
     url: "https://www.slideshare.net/Warply/chatbot-workshop-how-to-build-onedigitized16"
     author: "Warply"
     type: slides
+  - title: "Chatfuel"
+    url: "https://chatfuel.com/"
+    author: "Chatfuel"
+    type: tools
+  - title: "BotList"
+    url: "https://botlist.co/"
+    author: "BotList"
+    type: link
+  - title: "Botsociety"
+    url: "https://botsociety.io/"
+    author: "Botsociety"
+    type: tools
+  - title: "Learn how to design great conversational experiences"
+    url: "https://developers.google.com/actions/design/principles"
+    author: "Google"
+    type: link
+  - title: "Me, myself and I"
+    url: "https://trends.fjordnet.com/trends/me-myself-ai"
+    author: "Fjord"
+    type: link
+  - title: "Chatbottle"
+    url: "https://chatbottle.co/"
+    author: "Chatbottle"
+    type: link    
+  - title: "Botframe"
+    url: "https://botframe.com"
+    author: "Botframe"
+    type: tools
+  - title: "Cathy Pearl on designing conversational interfaces"
+    url: "https://www.oreilly.com/ideas/cathy-pearl-on-designing-conversational-interfaces"
+    author: "Cathy Pearl & Mary Treseler. The O'Reilly Design Podcast"
+    type: audio

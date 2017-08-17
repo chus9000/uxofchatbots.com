@@ -1,9 +1,11 @@
-# The UX of VR
+# The UX of Chatbots
 
-A curated list of resources to help you on your journey into the User Experience of Virtual Reality
+A curated list of resources to help you on your journey into the User Experience of Chatbots
 
-The contents of this list have now moved to http://www.uxofvr.com
+The contents of this list are published on http://www.uxofchatbots.com
 
-Many thanks to all of the authors of the talks, articles, and guides referenced in the list. Without these people doing the hard thinking, Virtual Reality wouldn't be where it is today.
+This project is based on Max Glenister idea http://www.uxofchatbots.com
+
+Thanks to the authors and companies that created the awesome content in this list. Their work is bringing to life the old dream of ruling the world just by speaking.
 
 If you would like to suggest a resource, you can do so by creating an issue.

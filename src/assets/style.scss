@@ -1,6 +1,6 @@
 @import "app-reset";
 @import "fonts/futura";
-$green: #2e0ed6;
+$green: #164f86;
 $white: darken(#fff, 2%);
 $black: lighten(#000, 2%);
 html {
@@ -50,7 +50,7 @@ main {
 
 header {
     background-color: $green;
-    background-image: linear-gradient(to bottom, #0f831f, #0d761c);
+    background-image: linear-gradient(to bottom, #164f86, #063058);
     color: $white;
     transform: skew(0, -4.5deg);
     margin: -4rem 0 4rem;
