@@ -1,15 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard">
-            <g id="checkbox-checked" transform="translate(4.000000, 4.000000)">
-                <polygon id="Shape" fill="#E1E1E1" points="0 0 24 0 24 24 0 24"></polygon>
-                <polyline id="Shape" fill="#198226" points="12.1757337 17.9908584 5 10.8151248 8.51786487 7.29725991 12.1757337 10.9551287 23.1308624 0 26.6487272 3.51786487"></polyline>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E1E1E1;}
+	.st1{fill:#2E0ED6;}
+</style>
+<title>Artboard</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="Artboard">
+		<g id="checkbox-checked" transform="translate(4.000000, 4.000000)">
+			<polygon id="Shape" class="st0" points="0,0 24,0 24,24 0,24 			"/>
+			<polyline id="Shape_1_" class="st1" points="12.2,18 5,10.8 8.5,7.3 12.2,11 23.1,0 26.6,3.5 			"/>
+		</g>
+	</g>
+</g>
 </svg>
