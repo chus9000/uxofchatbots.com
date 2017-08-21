@@ -4,7 +4,7 @@ title_full: The User Experience of Chatbots
 subtitle: A curated list of resources to help you on your journey into the User Experience of Chatbots
 baseurl: "https://chus9000.github.io/uxofchatbots.com/"
 intro:
-  - Thanks to the authors and companies that created the awesome content in this list. Their work is bringing to life the old dream of ruling the world just by speaking.
+  - Thanks to the authors and companies that created the awesome content in this list. Their work is bringing to life the old dream of ruling the world with the power of words.
 github_suggest:
   url: "https://github.com/chus9000/uxofchatbots.com/issues/new"
   text: "Suggest Something"
@@ -31,12 +31,9 @@ sections:
   - s: Book
     p: Books
     _: book
-  - s: Tool
-    p: Tools
-    _: tools
-  - s: Link
-    p: Links
-    _: link   
+  - s: Guide
+    p: Guides
+    _: guide   
 
 resources:
   - title: "There are a dozen ways to order a coffee. Why do dumb bots only allow one?"
@@ -47,13 +44,29 @@ resources:
     url: "https://chatbotsmagazine.com/design-framework-for-chatbots-aa27060c4ea3"
     author: "Jesús Martín"
     type: article
+  - title: "How Google’s AI paved the way for the next generation of bots"
+    url: "https://venturebeat.com/2016/04/03/how-googles-ai-paved-the-way-for-the-next-generation-of-bots/"
+    author: "Sapho Peter Yared"
+    type: article    
   - title: "19 Best UX Practices for Building Chatbots"
     url: "https://chatbotsmagazine.com/19-best-practices-for-building-chatbots-3c46274501b2"
     author: "Eunji “Jinny” Seo"
     type: article
+  - title: "Responsive Personality Design in Chatbots"
+    url: "https://chatbotsmagazine.com/responsive-personality-design-in-chatbots-a96b1c2373ba"
+    author: "Gillian Armstrong"
+    type: article
   - title: "Designing the Conversational UI"
     url: "http://alistapart.com/article/designing-the-conversational-ui"
     author: "Matty Mariansky"
+    type: article
+  - title: "Top 6 Conversational Skills To Teach Your Chatbots"
+    url: "https://medium.com/topbots/top-6-conversational-skills-to-teach-your-chatbots-ec4eb019a23d"
+    author: "Mariya Yao"
+    type: article
+  - title: "When Bots Go Bad: Common UX Mistakes In Chatbot Design"
+    url: "https://medium.com/topbots/when-bots-go-bad-common-ux-mistakes-in-chatbot-design-c60b252a6abf"
+    author: "Mariya Yao"
     type: article
   - title: "The Chatbots Are Coming: A Guide to Chatbots, AI and Conversational Interfaces"
     url: "https://www.slideshare.net/TheWorkingGroup/the-robots-are-coming-a-guide-to-chatbots-ai-and-conversational-interfaces"
@@ -75,34 +88,14 @@ resources:
     url: "https://www.slideshare.net/Warply/chatbot-workshop-how-to-build-onedigitized16"
     author: "Warply"
     type: slides
-  - title: "Chatfuel"
-    url: "https://chatfuel.com/"
-    author: "Chatfuel"
-    type: tools
-  - title: "BotList"
-    url: "https://botlist.co/"
-    author: "BotList"
-    type: link
-  - title: "Botsociety"
-    url: "https://botsociety.io/"
-    author: "Botsociety"
-    type: tools
   - title: "Learn how to design great conversational experiences"
     url: "https://developers.google.com/actions/design/principles"
     author: "Google"
-    type: link
+    type: guide
   - title: "Me, myself and I"
     url: "https://trends.fjordnet.com/trends/me-myself-ai"
     author: "Fjord"
-    type: link
-  - title: "Chatbottle"
-    url: "https://chatbottle.co/"
-    author: "Chatbottle"
-    type: link    
-  - title: "Botframe"
-    url: "https://botframe.com"
-    author: "Botframe"
-    type: tools
+    type: guide  
   - title: "Cathy Pearl on designing conversational interfaces"
     url: "https://www.oreilly.com/ideas/cathy-pearl-on-designing-conversational-interfaces"
     author: "Cathy Pearl & Mary Treseler. The O'Reilly Design Podcast"

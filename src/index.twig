@@ -16,7 +16,7 @@
   <meta property="og:image" content="{{ baseurl }}/assets/uxchatbotslogo.png"/>
   <!-- twitter -->
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@omgmog" />
+  <meta name="twitter:site" content="@chus9000" />
   <meta name="twitter:title" content="{{ title_full }}" />
   <meta name="twitter:description" content="{{ subtitle }}" />
   <meta name="twitter:image" content="{{ baseurl }}/assets/uxchatbotslogo.png" />
@@ -69,7 +69,7 @@
 
         <a href="{{ github_suggest.url }}" target="_blank" rel="noopener" class="btn">{{ github_suggest.text }}</a>
         <a href="{{ github_view.url }}" target="_blank" rel="noopener" class="btn">{{ github_view.text }}</a>
-        <a href="{{ twitter.url_base }}{{ twitter.message }}&amp;url=http://uxofchatbots.com/&amp;via=omgmog" target="_blank" rel="noopener" class="btn">{{ twitter.button_text }}</a>
+        <a href="{{ twitter.url_base }}{{ twitter.message }}&amp;url=http://uxofchatbots.com/&amp;via=chus9000" target="_blank" rel="noopener" class="btn">{{ twitter.button_text }}</a>
 
       </div>
     </section>
@@ -90,7 +90,7 @@
             class="label"
           >Mark as read</label>
           <h3>
-            <a href="{{ resource.url }}" target="_blank" rel="noopener">
+            <a href="{{ resource.url }}" target="_blank" rel="noopener" onClick="ga('send', 'event', 'recurso', 'click', '{{ resource.title }}')">
               {{ resource.title }}
             </a>
             <br>
@@ -111,7 +111,7 @@
   <script>
     $(function () {
       var getSavedProgress = function () {
-        var progressData = window.localStorage.getItem('uxofvr_progress');
+        var progressData = window.localStorage.getItem('uxofchatbots_progress');
         if (progressData) {
           progressData = JSON.parse(progressData);
           return progressData;
@@ -121,7 +121,7 @@
 
       var saveProgress = function (progress) {
         var progressData = JSON.stringify(progress);
-        window.localStorage.setItem('uxofvr_progress', progressData);
+        window.localStorage.setItem('uxofchatbots_progress', progressData);
       };
 
       var progress = getSavedProgress() || {"items":[]};
