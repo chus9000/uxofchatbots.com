@@ -2,7 +2,7 @@
 title_short: The UX of Chatbots
 title_full: The User Experience of Chatbots
 subtitle: A curated list of resources to help you on your journey into the User Experience of Chatbots
-baseurl: "https://chus9000.github.io/uxofchatbots.com/"
+baseurl: "http://uxofchatbots.com/"
 intro:
   - Thanks to the authors and companies that created the awesome content in this list. Their work is bringing to life the old dream of ruling the world with the power of words.
 github_suggest:
@@ -64,9 +64,33 @@ resources:
     url: "https://medium.com/topbots/top-6-conversational-skills-to-teach-your-chatbots-ec4eb019a23d"
     author: "Mariya Yao"
     type: article
+  - title: "The Next Phase Of UX: Designing Chatbot Personalities"
+    url: "https://www.fastcodesign.com/3054934/the-next-phase-of-ux-designing-chatbot-personalities"
+    author: "John Pavlus"
+    type: article
+  - title: "8 principles of bot design"
+    url: "https://medium.com/intercom-inside/8-principles-of-bot-design-51f03df1d84c"
+    author: "Intercom"
+    type: article
+  - title: "Technical and social challenges of conversational design. I made my website conversational. Here is what I learned."
+    url: "https://uxdesign.cc/my-website-is-now-conversational-here-is-what-i-learned-7e943cc6ace0"
+    author: "Adrian Zumbrunnen"
+    type: article
+  - title: "All Talk and No Buttons: The Conversational UI"
+    url: "https://alistapart.com/article/all-talk-and-no-buttons-the-conversational-ui"
+    author: "Matty Mariansky"
+    type: article        
   - title: "When Bots Go Bad: Common UX Mistakes In Chatbot Design"
     url: "https://medium.com/topbots/when-bots-go-bad-common-ux-mistakes-in-chatbot-design-c60b252a6abf"
     author: "Mariya Yao"
+    type: article
+  - title: "The Ultimate Guide to Chatbots: Why they’re disrupting UX and best practices for building"
+    url: "https://medium.muz.li/the-ultimate-guide-to-chatbots-why-theyre-disrupting-ux-and-best-practices-for-building-345e2150b682"
+    author: "Joe Toscano"
+    type: article    
+  - title: "Why chatbots fail"
+    url: "https://chatbot.fail/"
+    author: "uxdesign.cc"
     type: article
   - title: "The Chatbots Are Coming: A Guide to Chatbots, AI and Conversational Interfaces"
     url: "https://www.slideshare.net/TheWorkingGroup/the-robots-are-coming-a-guide-to-chatbots-ai-and-conversational-interfaces"
@@ -84,6 +108,10 @@ resources:
     url: "https://www.youtube.com/watch?v=xudpmyVUy6w"
     author: "Sebastian Krumhausen (WeAreDevelopers)"
     type: video
+  - title: "What is UX for conversational UIs?"
+    url: "https://www.youtube.com/watch?v=Fp6kImT_36U"
+    author: "David Contreras"
+    type: video
   - title: "Chatbot workshop - How to build one."
     url: "https://www.slideshare.net/Warply/chatbot-workshop-how-to-build-onedigitized16"
     author: "Warply"
@@ -95,7 +123,11 @@ resources:
   - title: "Me, myself and I"
     url: "https://trends.fjordnet.com/trends/me-myself-ai"
     author: "Fjord"
-    type: guide  
+    type: guide 
+  - title: "53 ideas to master Conversational Interfaces and Chatbots"
+    url: "https://botsbase.com/"
+    author: "botbase"
+    type: guide
   - title: "Cathy Pearl on designing conversational interfaces"
     url: "https://www.oreilly.com/ideas/cathy-pearl-on-designing-conversational-interfaces"
     author: "Cathy Pearl & Mary Treseler. The O'Reilly Design Podcast"
