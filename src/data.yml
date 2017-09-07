@@ -79,7 +79,11 @@ resources:
   - title: "All Talk and No Buttons: The Conversational UI"
     url: "https://alistapart.com/article/all-talk-and-no-buttons-the-conversational-ui"
     author: "Matty Mariansky"
-    type: article        
+    type: article
+  - title: "Usability Heuristics for Bots"
+    url: "https://chatbotsmagazine.com/usability-heuristics-for-bots-7075132d2c92"
+    author: "Kevin Scott"
+    type: article
   - title: "When Bots Go Bad: Common UX Mistakes In Chatbot Design"
     url: "https://medium.com/topbots/when-bots-go-bad-common-ux-mistakes-in-chatbot-design-c60b252a6abf"
     author: "Mariya Yao"
