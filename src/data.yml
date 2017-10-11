@@ -132,6 +132,10 @@ resources:
     url: "https://botsbase.com/"
     author: "botbase"
     type: guide
+  - title: "ChatbotTest. The free guide for you to understand what your chatbot is doing wrong."
+    url: "http://chatbottest.com/"
+    author: "Open source project"
+    type: guide    
   - title: "Cathy Pearl on designing conversational interfaces"
     url: "https://www.oreilly.com/ideas/cathy-pearl-on-designing-conversational-interfaces"
     author: "Cathy Pearl & Mary Treseler. The O'Reilly Design Podcast"
