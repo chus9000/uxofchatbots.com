@@ -96,6 +96,10 @@ resources:
     url: "https://chatbot.fail/"
     author: "uxdesign.cc"
     type: article
+  - title: "A guide to developing bot personalities. Personality is the new UX."
+    url: "https://blog.prototypr.io/a-guide-to-developing-bot-personalities-c6eba213d77b"
+    author: "Jess Thoms"
+    type: article
   - title: "The Chatbots Are Coming: A Guide to Chatbots, AI and Conversational Interfaces"
     url: "https://www.slideshare.net/TheWorkingGroup/the-robots-are-coming-a-guide-to-chatbots-ai-and-conversational-interfaces"
     author: "TWG"
