@@ -144,3 +144,7 @@ resources:
     url: "https://www.oreilly.com/ideas/cathy-pearl-on-designing-conversational-interfaces"
     author: "Cathy Pearl & Mary Treseler. The O'Reilly Design Podcast"
     type: audio
+  - title: "Good UX when your chatbot is having a very bad day"
+    url: "https://chatbotsmagazine.com/good-ux-when-your-chatbot-is-having-a-very-bad-day-e4f22885d7fb"
+    author: "Gillian Armstrong"
+    type: article
