@@ -152,3 +152,7 @@ resources:
     url: "https://www.linkedin.com/pulse/conversaciones-humano-m%C3%A1quina-dr-carmen-mart%C3%ADnez/"
     author: "Dr. Carmen Martínez"
     type: article
+  - title: "Designing Chatbots: A guide"
+    url: "http://bunnyfoot.com/blog/2018/02/designing-chatbots-a-guide/"
+    author: "Juliet Rowley"
+    type: article
