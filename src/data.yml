@@ -130,7 +130,7 @@ resources:
     type: guide
   - title: "Voice Design Guide by Amazon"
     url: "https://developer.amazon.com/designing-for-voice/"
-    author: "Google"
+    author: "Amazon"
     type: guide
   - title: "Me, myself and I"
     url: "https://trends.fjordnet.com/trends/me-myself-ai"
