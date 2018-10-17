@@ -128,6 +128,10 @@ resources:
     url: "https://developers.google.com/actions/design/principles"
     author: "Google"
     type: guide
+  - title: "Voice Design Guide by Amazon"
+    url: "https://developer.amazon.com/designing-for-voice/"
+    author: "Google"
+    type: guide
   - title: "Me, myself and I"
     url: "https://trends.fjordnet.com/trends/me-myself-ai"
     author: "Fjord"
