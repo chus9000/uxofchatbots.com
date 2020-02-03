@@ -36,6 +36,10 @@ sections:
     _: guide   
 
 resources:
+  - title: "Why Chatbots Don’t Solve UX and IA Problems"
+    url: "https://drunkenux.com/podcast/dux55/"
+    author: "The Drunken UX Podcast"
+    type: audio
   - title: "There are a dozen ways to order a coffee. Why do dumb bots only allow one?"
     url: "https://medium.com/assist/theres-a-dozen-ways-to-order-a-coffee-why-do-dumb-bots-only-allow-one-27230542636d"
     author: "Shane Mac"
